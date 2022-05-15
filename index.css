@@ -1,0 +1,65 @@
+*{font-family: 'Do Hyeon', sans-serif;}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+header{
+    /*background-color: aquamarine;*/
+    background-image: url('https://wallpaperaccess.com/full/4115671.jpg');
+    text-align: center;
+    color: burlywood;
+    font-size: 30px;
+}
+h1, h2, ul{
+    margin: 0;
+}
+h1{
+    padding: 200px 0 100px;
+}
+h2{
+    font-size: 50px;
+}
+nav{
+    background-color: aliceblue;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding: 20px;
+}
+nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+}
+
+section{
+    text-align: center;
+    list-style-position: inside;
+    padding: 20px 0;
+    font-size: 20px;
+    scroll-margin-top: 89px;
+}
+
+#info{
+    background-color: bisque;
+}
+#github{
+    background-color: ivory;
+    font-size: 25px;
+}
+#github img{
+    width: 1000px;
+}
+#etc{
+    background-color: honeydew;
+}
